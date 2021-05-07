@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.header{
+    height: 145px;
+    /* background-color: aqua; */
+}
+.header-bar{
+    height: 130px;
+    padding: 15px 0 0 0;
+    /* background-color: red; */
+}
+.header-bar_nav{
+    height: 25px;
+    /* background-color: rebeccapurple; */
+}
+.header-container{
+    width: 1350px;
+    height: 24px;
+    margin: 0 auto;
+}
+.header-container .headerList{
+    width: 100%;
+    height: 24px;
+    position: relative;
+}
+.headerList li a{
+    float: right;
+    margin: 0 42px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.header-container .headerList .shop-car{
+    display: none;
+    width: 298px;
+    height: 183px;
+    background-color: #ffffff;
+    border: 2px solid #E5E5E5;
+    box-shadow:  10px 10px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    position: absolute;
+    right: 26px;
+    top: 38px;
+}
+.headerList .shop-car .shop-car-bar{
+    width: 278px;
+    padding: 10px;
+
+}
+.headerList .shop-car .shop-car-main{
+    width: 298px;
+    height: 0px;
+    text-align: center;
+    padding: 40px 0;
+
+}
+.headerList .shop-car .shop-car-title{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0  30px;
+    color: #CCCCCC;
+    font-weight: 500;
+    
+}
+.headerList .shop-car .shop-car-main .buygoods{
+    width: 88px;
+    height: 32px;
+    color: #fff;
+    background-color: #c51333;
+    background: #c51333;
+}
+
+
+.header-container .headerList .top-logo-one{
+    width: 25px;
+    height: 25px;
+    /* background-color: red; */
+}
+.headerList .top-logo-one img{
+    width: 100%;
+    height: 100%;
+}
+.header-container .headerList .top-logo-two{
+    width: 25px;
+    height: 25px;
+    /* background-color: red; */
+}
+.headerList .top-logo-two img{
+    width: 100%;
+    height: 100%;
+}
+.header-container .headerList .top-logo-three{
+    width: 25px;
+    height: 25px;
+    /* background-color: red; */
+}
+.headerList .top-logo-three img{
+    width: 100%;
+    height: 100%;
+}
+
+.headerList .top-logo-one{
+    position: absolute;
+    right: 19px;
+    top: -4px;
+}
+.headerList .top-logo-two{
+    position: absolute;
+    right: 235px;
+    top: -4px;
+}
+
+.header-container .headerList .badge{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -5px;
+    top: -3px;
+    background: #c51333;
+    border-radius: 20px;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    font-size: 11px;
+}
+.headerList .top-logo-three{
+    position: absolute;
+    right: 336px;
+    top: -3px;
+}
+.header-menu{
+    height: 45px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+.header-menu .menu-bar{
+    height: 45px;
+    width: 1150px;
+    padding-left: 200px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+.menuList li a{
+    float: left;
+    line-height: 45px;
+    margin: 0 30px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menuList li:hover a{
+    color:#ff2365;
+}
+.menu-bar input{
+    width: 240px;
+    height: 38px;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding-left: 15px ;
+}
+.menu-bar{
+    position: relative;
+}
+.menu-bar .inp-logo{
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    cursor: pointer;
+}
+.header-bar{
+    position: relative;
+}
+.header-menu .header-logo img{
+    position: absolute;
+    left: 283px;
+    top: 30px;
+}
+.notice_container{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: -30px;
+}
+.menu-bar .sousuo-list{
+    display: inline-block;
+    width: 258px;
+    height: 108px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    position: absolute;
+    right: 33px;
+    top: 45px;
+    border-radius: 5px;
+    padding: 20px 0;
+    border: 1px solid black;
+    display: none;
+}
+.sousuo-list .hot-search{
+    width: 228px;
+    height: 106px;
+    /* background-color: aqua; */
+    padding: 0 15px;
+}
+.sousuo-list .hot-search .hot-search-title{
+    width: 228px;
+    height: 19px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hot-search .hot-search-list{
+    width: 228px;
+    height: 77px;
+    padding: 0 0 10px 0;
+    font-size: 18px;
+}
+input:focus .sousuo-list{
+    display: block;
+}

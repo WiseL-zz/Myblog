@@ -1,0 +1,92 @@
+.footer{
+    width: 100%;
+    height: 372px;
+    background-color:#212121;
+}
+.footer .footer-content{
+    width: 100%;
+    height: 334px;
+    /* background-color: red; */
+    position: relative;
+}
+.footer-content .footer-content-nav{
+    width: 977px;
+    height: 179px;
+    /* background-color: pink; */
+    position: absolute;
+    left: 480px;
+    bottom: 0;
+    margin: 135px 0 20px;
+}
+.footer-content-nav ul{
+    display: inline-flex;
+}
+.footer-content-nav ul>ul{
+    flex-direction: column;
+    margin-right: 98px;
+    color:white;
+}
+.footer-content-nav ul li{
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+.footer-content-nav .nav-one-five li:first-child{
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-one-five{
+    position: relative;
+}
+.nav-one-five .one li img{
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+.nav-one-five .five div{
+    width: 130px;
+    height: 47px;
+    /* background-color: purple; */
+}
+.nav-one-five .five div>img{
+    float: left;
+    margin-right: 10px;
+}
+
+
+.footer-content .content-logo{
+    width: 170px;
+    height: 98px;
+    position: absolute;
+    left: 45%;
+    margin-top: 20px;
+}
+.content-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer .footer-copyright{
+    width: 100%;
+    height: 38px;
+    background-color: #010101;
+}
+.footer-copyright .sub-footer{
+    width: 1200px;
+    height: 38px;
+    margin: 0 auto;
+    /* background-color: red; */
+    position: relative;
+}
+.sub-footer ul li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+.sub-footer li img{
+    position: absolute;
+    right: 339px;
+    bottom: 12px;
+}

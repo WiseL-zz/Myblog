@@ -1,0 +1,155 @@
+.content{
+    width: 1903px;
+    height: 2824px;
+    /* background-color: brown; */
+}
+.content .content-index{
+    width: 1440px;
+    height: 1000px;
+    background-color: aqua;
+    margin: auto;
+    overflow: hidden;
+}
+.content-index .indeximg{
+    width: 5760px;
+    height: 600px;
+}
+.content-index .indeximg li{
+    float: left;
+}
+.content-index .typelist li{
+    float: left;
+}
+.indeximg{
+    position: relative;
+}
+.indeximg .left{
+    display: block;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+
+}
+.indeximg .right{
+    display: block;
+    font-size: 100px;
+    position: absolute;
+    left: 1360px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.content .wedgt-title{
+    height: 24px;
+    /* background-color: red; */
+    font-size: 18px;
+    margin: 40px 0;
+    text-align: center;
+    font-weight: 700;
+}
+.wedgt-recommed_nav{
+    width: 100%;
+    height: 35px;
+    /* background-color: aqua; */
+}
+
+.sexlist{
+    margin-left: 888px;
+}
+.sexlist li{
+    float: left;
+    margin: 0 10px;
+}
+.sexlist>li a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+.sexlist li:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.main{
+    width: 100%;
+    height: 379px;
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+.main .species_container{
+    margin: 0 231px;
+    height: 379px;
+    /* background-color: rgb(0, 255, 221); */
+}
+.species_container .species_container_in{
+    height: 379px;
+    margin: 0 128px;
+    /* background-color: royalblue; */
+    position: relative;
+}
+.species_container_in ul li{
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 8px;
+    position: relative;
+}
+.species_container_in ul li span{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: -28px;
+    margin-left: 42px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.species_container_in .iconleft,
+.species_container_in .iconright{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.species_container_in .iconleft{
+    left: 0;
+    margin-left: -21px;
+}
+.species_container_in .iconright{
+    right: 0;
+    margin-right: -21px;
+}
+
+.pinpai{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pinpai .pinpai-img{
+    width: 1100px;
+    height: 303px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.pinpai-img ul li{
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.pinpai-img li>.pinpai-title{
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+.sub-img{
+    width: 1440px;
+    height: 815px;
+    margin: 0 auto;
+    background-color: red;
+}
+.sub-img ul li{
+    float: left;
+    
+}
+
+.sub-img-last{
+    margin-top: -5px;
+}
